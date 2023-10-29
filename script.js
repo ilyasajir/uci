@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Aug 23, 2020 00:00:00').getTime(),
+let countDown = new Date('Oct 28, 2023 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -146,14 +146,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Adam Mukti Wibisono pada hari ini Minggu, 23 Agustus 2020 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 21</b>", " ", "Kepada Irna Imroatun, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Adam Mukti, Mas ganteng :)"],
+  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Ilyasa Azharil Muhajir pada hari ini Sabtu, 28 Oktober 2023 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 19</b>", " ", "Kepada Susi Listyaningrum, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Ilyasa Azharil Muhajir - Bismillah calon kamu :)"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii cabi!!", "Happy Birthday ya..", " ", "Ciie udah 21 tahun, padahal baru aja beberapa hari kemarin umur kita sama hehe, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
+  strings: ["Haii Ucii !!", "Happy Birthday ya..", " ", "Udah 19 tahun yaa, menurut Undang-Undang Pernikahan Nomor 1 Tahun 1974 udah masuk batas usia minimal bagi wanita untuk menikah ahahaha, semoga di umur yang sekarang uci bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih mengenal diri uci, dan bisa hidup sesuai mau uci.", "Maaf ya aku agak telat gabisa kasih kado nya. Cuma ini yang bisa aku kasih ke kamu, semoga uci sukaak :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan Uci bisa tercapai, Aamiin."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -161,7 +161,7 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih."],
+  strings: ["Alhamdulillah Jaza Killahu Khoiro <3."],
   startDelay: 2000,
   speed: 150,
   loop: false,
