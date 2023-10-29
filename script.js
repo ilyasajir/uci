@@ -123,7 +123,7 @@ const _slideLima = function () {
 
   setTimeout(() => {
     trims.classList.remove('d-none');
-  }, 1000);
+  }, 3000);
 
   slideLima.addEventListener('animationend', () => {
     slideLima.classList.add('animate__delay-3s')
@@ -163,7 +163,7 @@ new TypeIt("#teks2", {
 new TypeIt("#trims", {
   strings: ["Alhamdulillah Jaza Killahu Khoiro <3."],
   startDelay: 2000,
-  speed: 150,
+  speed: 500,
   loop: false,
   waitUntilVisible: true,
 }).go();
